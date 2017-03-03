@@ -1,0 +1,36 @@
+ident
+line
+0 0 0 0 0 100
+line
+0 0 0 0 100 0
+line
+0 0 0 100 0 0
+line
+100 0 0 100 100 0
+line
+100 0 0 100 0 100
+line
+0 100 0 100 100 0
+line
+0 100 0 0 100 100
+line
+0 0 100 100 0 100
+line
+0 0 100 0 100 100
+line
+100 100 100 0 100 100
+line
+100 100 100 100 0 100
+line
+100 100 100 100 100 0
+display
+scale
+2 2 2
+move
+50 50 0
+rotate
+x 30
+rotate
+y 30
+apply
+display
