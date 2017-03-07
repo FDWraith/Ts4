@@ -11,6 +11,7 @@ def make_translate( x, y, z ):
 
 def make_scale( x, y, z ):
     matrix = new_matrix()
+    ident( matrix )
     matrix[0][0] = x
     matrix[1][1] = y
     matrix[2][2] = z
