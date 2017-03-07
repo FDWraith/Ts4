@@ -98,6 +98,7 @@ def parse_file( fname, points, transform, screen, color ):
                 else:
                     clear_screen(screen)
                     draw_lines( points, screen, color )
+                    display(screen)
                     save_extension( screen, args[0])
             else:
                 print "COMMAND NOT FOUND"
