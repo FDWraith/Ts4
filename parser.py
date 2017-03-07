@@ -87,6 +87,7 @@ def parse_file( fname, points, transform, screen, color ):
             elif cmd == "apply":
                 matrix_mult( transform, points )
             elif cmd == "display":
+                clear_screen( screen )
                 draw_lines( points, screen, color )
                 display( screen )
             elif cmd == "save":
@@ -94,6 +95,7 @@ def parse_file( fname, points, transform, screen, color ):
                 if len(args) < 1:
                     print "All you had was one job. ONE JOB! And you couldn't even do that properly. We need a GODDAMN FILENAME to SAVE to! "
                 else:
+                    clear_screen(screen)
                     draw_lines( points, screen, color )
                     save_extension( screen, args[0])
             else:
