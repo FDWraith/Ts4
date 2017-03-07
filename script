@@ -30,7 +30,7 @@ apply
 display
 ident
 move
-200 100 0
+300 100 0
 apply
 display
 ident
@@ -38,7 +38,28 @@ rotate
 z 30
 rotate
 x 30
-rotate
-y 30
 apply
-display
+ident
+rotate
+y 10
+apply
+save
+anim/1.ppm
+apply
+save
+anim/2.ppm
+apply
+save
+anim/3.ppm
+apply
+save
+anim/4.ppm
+apply
+save
+anim/5.ppm
+apply
+save
+anim/6.ppm
+apply
+save
+anim/7.ppm
