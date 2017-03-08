@@ -91,8 +91,7 @@ def parse_file( fname, points, transform, screen, color ):
                 draw_lines( points, screen, color )
                 display( screen )
             elif cmd == "save":
-                args = file.readline().strip()
-                args = args.split(" ")
+                args = file.readline().strip().split()
                 if len(args) < 1:
                     print "All you had was one job. ONE JOB! And you couldn't even do that properly. We need a GODDAMN FILENAME to SAVE to! "
                 else:
